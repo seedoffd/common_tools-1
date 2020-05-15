@@ -552,10 +552,9 @@ Master:
   # master.key and hudson.util.Secret)
   # SecretsFilesSecret: jenkins-secrets
   # Jenkins XML job configs to provision
-#   Jobs: |-
-
-jenkins common-tools job xml: |
-
+  Jobs: |-
+    jenkins common-tools job xml: 
+    |
     <flow-definition plugin="workflow-job@2.33">
     <script type="text/javascript" charset="utf-8" id="zm-extension"/>
     <actions>
