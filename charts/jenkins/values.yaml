@@ -553,7 +553,7 @@ Master:
   # SecretsFilesSecret: jenkins-secrets
   # Jenkins XML job configs to provision
   Jobs: |-
-    jenkins common-tools job xml: 
+    common-tools-deploy: 
     |
     <flow-definition plugin="workflow-job@2.33">
     <script type="text/javascript" charset="utf-8" id="zm-extension"/>
